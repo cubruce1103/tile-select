@@ -4,8 +4,8 @@ function generateTile(){
     var randomAngle, randomDistance; 
     var x, y;
     
-    minDistance = +document.getElementById("minRadius").value;
-    maxDistance = +document.getElementById("maxRadius").value;
+    minDistance = +document.getElementById("minDistance").value;
+    maxDistance = +document.getElementById("maxDistance").value;
 
     if(maxDistance < minDistance){
         [maxDistance, minDistance] = [minDistance, maxDistance];
