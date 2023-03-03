@@ -14,7 +14,7 @@ minDistancePad = Math.max(0, minDistance - 1)
 var remainingAreaRatio = (minDistancePad / maxDistancePad) ** 2;
 
 do{
-    randomAngle = Math.random() * Math.PI
+    randomAngle = Math.random() * Math.PI * 2
     randomDistance = maxDistancePad * Math.sqrt(1 - (1 - remainingAreaRatio) * Math.random())
 
     x = Math.round(Math.cos(randomAngle) * randomDistance)
