@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
     <body>
-        <h1>Random Tile From Round Maps Generator</h1>
+        <header><b>Random Tile From Round Maps Generator</b></header><br>
         <label>Minimum Distance from the Origin:</label><br>
         <input type="number" id="minDistance" value="70" min="0" placeholder="70"/><br><br>
         <label>Maximum Distance from the Origin:</label><br>
-        <input type="number" id="maxDistance" value="150" min="0" placeholder="150"/><br>
+        <input type="number" id="maxDistance" value="150" min="0" placeholder="150"/><br><br>
         <button onclick="generateTile()">Generate</button>
-        <p id="result">Generated Tile:</p>
+        <div id="result">[ / ]</div>
 
-        <script src="script.js"></script>
+        
     </body>
 </html>
