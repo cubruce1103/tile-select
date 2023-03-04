@@ -1,0 +1,19 @@
+body{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+header{
+    font-size: 2.5em;
+}
+label, input, p{
+    font-size:1.5em;
+}
+button{
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+#result{
+    font-size: 3em;
+}

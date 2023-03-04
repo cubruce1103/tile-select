@@ -25,5 +25,5 @@ function generateTile(){
         y = Math.round(Math.sin(randomAngle) * randomDistance)
     } while (x**2 + y**2 < minDistance**2 || x**2 + y**2 > maxDistance**2);
     
-    document.getElementById("result").innerHTML = "Generated Tile: [" + x + "/" + y + "]";
+    document.getElementById("result").innerHTML = "[" + x + "/" + y + "]";
 }
